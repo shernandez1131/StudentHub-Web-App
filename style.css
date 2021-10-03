@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .navbar{
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 nav{
   flex: 1;
@@ -28,7 +31,7 @@ p{
   color: #fff;
 }
 .container{
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -60,7 +63,26 @@ p{
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
+  transition: background;
+}
+.btn:hover{
+  background: #6ac530;
 }
 .header{
   background: #4883bf;
+}
+.header row{
+  margin-top: 70px;
+}
+
+/* ----------account-page---------- */
+.account-page{
+  padding: 50px 0;
+  background: #4883bf;
+}
+.form-container{
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
 }
